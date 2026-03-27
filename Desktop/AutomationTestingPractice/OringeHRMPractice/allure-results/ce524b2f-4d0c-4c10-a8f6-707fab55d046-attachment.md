@@ -1,0 +1,304 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - generic [ref=e113]:
+            - heading "Admin" [level=6] [ref=e114]
+            - heading "/ User Management" [level=6] [ref=e115]
+        - link "Upgrade" [ref=e117]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e118] [cursor=pointer]: Upgrade
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - generic [ref=e126] [cursor=pointer]:
+              - img "profile picture" [ref=e127]
+              - paragraph [ref=e128]: First Name Last Name
+              - generic [ref=e129]: 
+      - navigation "Topbar Menu" [ref=e131]:
+        - list [ref=e132]:
+          - listitem [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]:
+              - text: User Management
+              - generic [ref=e135]: 
+          - listitem [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]:
+              - text: Job
+              - generic [ref=e138]: 
+          - listitem [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]:
+              - text: Organization
+              - generic [ref=e141]: 
+          - listitem [ref=e142] [cursor=pointer]:
+            - generic [ref=e143]:
+              - text: Qualifications
+              - generic [ref=e144]: 
+          - listitem [ref=e145] [cursor=pointer]:
+            - link "Nationalities" [ref=e146]:
+              - /url: "#"
+          - listitem [ref=e147] [cursor=pointer]:
+            - link "Corporate Branding" [ref=e148]:
+              - /url: "#"
+          - listitem [ref=e149] [cursor=pointer]:
+            - generic [ref=e150]:
+              - text: Configuration
+              - generic [ref=e151]: 
+          - button "" [ref=e153] [cursor=pointer]:
+            - generic [ref=e154]: 
+  - generic [ref=e155]:
+    - generic [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - heading "System Users" [level=5] [ref=e161]
+          - button "" [ref=e164] [cursor=pointer]:
+            - generic [ref=e165]: 
+        - separator [ref=e166]
+        - generic [ref=e168]:
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - generic [ref=e174]: Username
+              - textbox [ref=e176]: kuldeep
+            - generic [ref=e178]:
+              - generic [ref=e180]: User Role
+              - generic [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: ESS
+                - generic [ref=e186]: 
+            - generic [ref=e188]:
+              - generic [ref=e190]: Employee Name
+              - textbox "Type for hints..." [ref=e194]: aniket Ashok patil
+              - generic [ref=e195]: Invalid
+            - generic [ref=e197]:
+              - generic [ref=e199]: Status
+              - generic [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]: "-- Select --"
+                - generic [ref=e205]: 
+          - separator [ref=e206]
+          - generic [ref=e207]:
+            - button "Reset" [ref=e208] [cursor=pointer]
+            - button "Search" [ref=e209] [cursor=pointer]
+      - generic [ref=e210]:
+        - button " Add" [ref=e212] [cursor=pointer]:
+          - generic [ref=e213]: 
+          - text: Add
+        - generic [ref=e214]:
+          - separator [ref=e215]
+          - generic [ref=e217]: (6) Records Found
+        - table [ref=e219]:
+          - rowgroup [ref=e220]:
+            - row " Username  User Role  Employee Name  Status  Actions" [ref=e221]:
+              - columnheader "" [ref=e222]:
+                - generic [ref=e224] [cursor=pointer]:
+                  - checkbox "" [ref=e225]
+                  - generic [ref=e227]: 
+              - columnheader "Username " [ref=e228]:
+                - text: Username
+                - generic [ref=e229]:
+                  - generic [ref=e230] [cursor=pointer]: 
+                  - text:  
+              - columnheader "User Role " [ref=e231]:
+                - text: User Role
+                - generic [ref=e232]:
+                  - generic [ref=e233] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Employee Name " [ref=e234]:
+                - text: Employee Name
+                - generic [ref=e235]:
+                  - generic [ref=e236] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Status " [ref=e237]:
+                - text: Status
+                - generic [ref=e238]:
+                  - generic [ref=e239] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Actions" [ref=e240]
+          - rowgroup [ref=e241]:
+            - row " Admin Admin First Name Last Name Enabled  " [ref=e243]:
+              - cell "" [ref=e244]:
+                - generic [ref=e248]:
+                  - checkbox "" [ref=e249]
+                  - generic [ref=e251]: 
+              - cell "Admin" [ref=e252]:
+                - generic [ref=e253]: Admin
+              - cell "Admin" [ref=e254]:
+                - generic [ref=e255]: Admin
+              - cell "First Name Last Name" [ref=e256]:
+                - generic [ref=e257]: First Name Last Name
+              - cell "Enabled" [ref=e258]:
+                - generic [ref=e259]: Enabled
+              - cell " " [ref=e260]:
+                - generic [ref=e261]:
+                  - button "" [ref=e262] [cursor=pointer]:
+                    - generic [ref=e263]: 
+                  - button "" [ref=e264] [cursor=pointer]:
+                    - generic [ref=e265]: 
+            - row " FMLName1 ESS FName LName Enabled  " [ref=e267]:
+              - cell "" [ref=e268]:
+                - generic [ref=e271] [cursor=pointer]:
+                  - checkbox "" [ref=e272]
+                  - generic [ref=e274]: 
+              - cell "FMLName1" [ref=e275]:
+                - generic [ref=e276]: FMLName1
+              - cell "ESS" [ref=e277]:
+                - generic [ref=e278]: ESS
+              - cell "FName LName" [ref=e279]:
+                - generic [ref=e280]: FName LName
+              - cell "Enabled" [ref=e281]:
+                - generic [ref=e282]: Enabled
+              - cell " " [ref=e283]:
+                - generic [ref=e284]:
+                  - button "" [ref=e285] [cursor=pointer]:
+                    - generic [ref=e286]: 
+                  - button "" [ref=e287] [cursor=pointer]:
+                    - generic [ref=e288]: 
+            - row " Jobinsam@6742 ESS Jobin Sam Enabled  " [ref=e290]:
+              - cell "" [ref=e291]:
+                - generic [ref=e294] [cursor=pointer]:
+                  - checkbox "" [ref=e295]
+                  - generic [ref=e297]: 
+              - cell "Jobinsam@6742" [ref=e298]:
+                - generic [ref=e299]: Jobinsam@6742
+              - cell "ESS" [ref=e300]:
+                - generic [ref=e301]: ESS
+              - cell "Jobin Sam" [ref=e302]:
+                - generic [ref=e303]: Jobin Sam
+              - cell "Enabled" [ref=e304]:
+                - generic [ref=e305]: Enabled
+              - cell " " [ref=e306]:
+                - generic [ref=e307]:
+                  - button "" [ref=e308] [cursor=pointer]:
+                    - generic [ref=e309]: 
+                  - button "" [ref=e310] [cursor=pointer]:
+                    - generic [ref=e311]: 
+            - row " john.smith24 ESS Johnnn Smithh Enabled  " [ref=e313]:
+              - cell "" [ref=e314]:
+                - generic [ref=e317] [cursor=pointer]:
+                  - checkbox "" [ref=e318]
+                  - generic [ref=e320]: 
+              - cell "john.smith24" [ref=e321]:
+                - generic [ref=e322]: john.smith24
+              - cell "ESS" [ref=e323]:
+                - generic [ref=e324]: ESS
+              - cell "Johnnn Smithh" [ref=e325]:
+                - generic [ref=e326]: Johnnn Smithh
+              - cell "Enabled" [ref=e327]:
+                - generic [ref=e328]: Enabled
+              - cell " " [ref=e329]:
+                - generic [ref=e330]:
+                  - button "" [ref=e331] [cursor=pointer]:
+                    - generic [ref=e332]: 
+                  - button "" [ref=e333] [cursor=pointer]:
+                    - generic [ref=e334]: 
+            - row " john.smith25 ESS Johnnnnn Smithh Enabled  " [ref=e336]:
+              - cell "" [ref=e337]:
+                - generic [ref=e340] [cursor=pointer]:
+                  - checkbox "" [ref=e341]
+                  - generic [ref=e343]: 
+              - cell "john.smith25" [ref=e344]:
+                - generic [ref=e345]: john.smith25
+              - cell "ESS" [ref=e346]:
+                - generic [ref=e347]: ESS
+              - cell "Johnnnnn Smithh" [ref=e348]:
+                - generic [ref=e349]: Johnnnnn Smithh
+              - cell "Enabled" [ref=e350]:
+                - generic [ref=e351]: Enabled
+              - cell " " [ref=e352]:
+                - generic [ref=e353]:
+                  - button "" [ref=e354] [cursor=pointer]:
+                    - generic [ref=e355]: 
+                  - button "" [ref=e356] [cursor=pointer]:
+                    - generic [ref=e357]: 
+            - row " luongthuhien ESS luong hien Enabled  " [ref=e359]:
+              - cell "" [ref=e360]:
+                - generic [ref=e363] [cursor=pointer]:
+                  - checkbox "" [ref=e364]
+                  - generic [ref=e366]: 
+              - cell "luongthuhien" [ref=e367]:
+                - generic [ref=e368]: luongthuhien
+              - cell "ESS" [ref=e369]:
+                - generic [ref=e370]: ESS
+              - cell "luong hien" [ref=e371]:
+                - generic [ref=e372]: luong hien
+              - cell "Enabled" [ref=e373]:
+                - generic [ref=e374]: Enabled
+              - cell " " [ref=e375]:
+                - generic [ref=e376]:
+                  - button "" [ref=e377] [cursor=pointer]:
+                    - generic [ref=e378]: 
+                  - button "" [ref=e379] [cursor=pointer]:
+                    - generic [ref=e380]: 
+    - generic [ref=e382]:
+      - paragraph [ref=e383]: OrangeHRM OS 5.8
+      - paragraph [ref=e384]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e385] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

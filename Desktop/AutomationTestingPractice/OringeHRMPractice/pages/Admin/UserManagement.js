@@ -1,15 +1,18 @@
 const { AdminDashbordPage } = require('./AdminDashbordPage');
 class UserManegment {
     constructor(page) {
+        this.page = page;
         this.Userbtn = page.locator('a:has-text("Users")');
-        this.Username = page.getByLabel('Username');
+        this.Username = page.locator(
+  '.oxd-input-group:has(label:has-text("Username")) input'
+);
         this.UserRole = page.locator(
             '.oxd-input-group:has(label:has-text("User Role")) .oxd-select-text'
         );
-        this.EmployeeName = page.getByLabel('Employee Name');
-        this.Status = this.page.locator(
-            '.oxd-input-group:has(label:has-text("Status")) .oxd-select-text'
-        );
+        this.EmployeeName = page.getByPlaceholder('Type for hints...');
+        this.Status = page.locator(
+  '.oxd-input-group:has(label:has-text("Status")) .oxd-select-text'
+);  
         this.Searchbtn = page.getByRole('button', { name: ' Search ' });
         this.Resetbtn = page.getByRole('button', { name: 'Reset ' });
         this.Addbtn = page.getByRole('button', { name: ' Add ' });
@@ -26,9 +29,10 @@ class UserManegment {
 
     }
     async gotouser() {
-        Admin = new AdminDashbordPage;
-        await Admin.UserManegment.click();
-        await this.Userbtn.click();
+        const admin = new AdminDashbordPage(this.page);
+
+    await admin.gotoUserMgt(); // ✅ clean
+    await this.Userbtn.click();
 
     }
 
@@ -52,11 +56,11 @@ class UserManegment {
     }
 
     // 🔥 Status (Dropdown) → FIX locator (your getByLabel won't work)
-    if (status) {
-        
-        await Status.click();
-        await this.page.getByRole('option', { name: status }).click();
-    }
+   if (status) {
+    await this.Status.click(); // ✅ correct
+
+    await this.page.getByRole('option', { name: status }).click();
+}
 
     // Search
     await this.Searchbtn.click();

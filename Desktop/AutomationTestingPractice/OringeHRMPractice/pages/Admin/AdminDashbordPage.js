@@ -1,7 +1,7 @@
 class AdminDashbordPage{
     constructor(page){
         this.page = page;
-        this.UserManagement = page.getByText('User Management ');
+        this.UserManagement = page.getByText('User Management');
         this.Job = page.getByText('Job ');
         this.Organization = page.getByText('Organization ');
         this.Qualifications = page.getByText('Qualifications ');

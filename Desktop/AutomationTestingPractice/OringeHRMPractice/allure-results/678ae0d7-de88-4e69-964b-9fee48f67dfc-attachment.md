@@ -1,0 +1,155 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Recruitment" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e48]: Recruitment
+            - listitem [ref=e49]:
+              - link "My Info" [ref=e50] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e56]: My Info
+            - listitem [ref=e57]:
+              - link "Performance" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e66]: Performance
+            - listitem [ref=e67]:
+              - link "Dashboard" [ref=e68] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e71]: Dashboard
+            - listitem [ref=e72]:
+              - link "Directory" [ref=e73] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e76]: Directory
+            - listitem [ref=e77]:
+              - link "Maintenance" [ref=e78] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e82]: Maintenance
+            - listitem [ref=e83]:
+              - link "Claim" [ref=e84] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e87]
+                - generic [ref=e91]: Claim
+            - listitem [ref=e92]:
+              - link "Buzz" [ref=e93] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e96]: Buzz
+    - banner [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=e101]
+        - link "Upgrade" [ref=e103]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e104] [cursor=pointer]: Upgrade
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - generic [ref=e112] [cursor=pointer]:
+              - img "profile picture" [ref=e113]
+              - paragraph [ref=e114]: AlexandreSukirtha MartinSree
+              - generic [ref=e115]: 
+      - navigation "Topbar Menu" [ref=e117]:
+        - list [ref=e118]:
+          - button "" [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 
+  - generic [ref=e122]:
+    - generic [ref=e124]:
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: 
+          - paragraph [ref=e130]: My Actions
+        - separator [ref=e131]
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - button [ref=e135] [cursor=pointer]
+            - paragraph [ref=e141] [cursor=pointer]: (1) Pending Self Review
+          - generic [ref=e142]:
+            - button [ref=e143] [cursor=pointer]
+            - paragraph [ref=e152] [cursor=pointer]: (2) Candidates to Interview
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - generic [ref=e157]: 
+          - paragraph [ref=e158]: Quick Launch
+        - separator [ref=e159]
+        - generic [ref=e161]:
+          - img "No Content" [ref=e162]
+          - paragraph [ref=e163]: Not Available
+      - generic [ref=e165]:
+        - generic [ref=e167]:
+          - generic [ref=e168]: 
+          - paragraph [ref=e169]: Buzz Latest Posts
+        - separator [ref=e170]
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174] [cursor=pointer]:
+              - img "profile picture" [ref=e176]
+              - generic [ref=e177]:
+                - paragraph [ref=e178]: AlexandreSukirtha PierreS MartinSree
+                - paragraph [ref=e179]: 2026-27-03 04:38 PM
+            - separator [ref=e180]
+            - paragraph [ref=e181]: Hello I M NAAZMI
+          - generic [ref=e182]:
+            - generic [ref=e183] [cursor=pointer]:
+              - img "profile picture" [ref=e185]
+              - generic [ref=e186]:
+                - paragraph [ref=e187]: AlexandreSukirtha PierreS MartinSree
+                - paragraph [ref=e188]: 2026-27-03 04:35 PM
+            - separator [ref=e189]
+            - paragraph [ref=e190]: Hi this is a sample message
+      - generic [ref=e192]:
+        - generic [ref=e194]:
+          - generic [ref=e195]: 
+          - paragraph [ref=e196]: Employee Distribution by Sub Unit
+        - separator [ref=e197]
+        - list [ref=e202]:
+          - listitem [ref=e203] [cursor=pointer]:
+            - generic "Engineering" [ref=e205]
+          - listitem [ref=e206] [cursor=pointer]:
+            - generic "Human Resources" [ref=e208]
+          - listitem [ref=e209] [cursor=pointer]:
+            - generic "Unassigned" [ref=e211]
+      - generic [ref=e213]:
+        - generic [ref=e215]:
+          - generic [ref=e216]: 
+          - paragraph [ref=e217]: Employee Distribution by Location
+        - separator [ref=e218]
+        - list [ref=e223]:
+          - listitem [ref=e224] [cursor=pointer]:
+            - generic "HQ - CA, USA" [ref=e226]
+          - listitem [ref=e227] [cursor=pointer]:
+            - generic "Texas R&D" [ref=e229]
+          - listitem [ref=e230] [cursor=pointer]:
+            - generic "Unassigned" [ref=e232]
+    - generic [ref=e233]:
+      - paragraph [ref=e234]: OrangeHRM OS 5.8
+      - paragraph [ref=e235]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e236] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
