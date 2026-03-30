@@ -17,7 +17,7 @@ class UserManegment {
         this.Resetbtn = page.getByRole('button', { name: 'Reset ' });
         this.Addbtn = page.getByRole('button', { name: ' Add ' });
         this.Deletebtn = page.locator('button:has(i.bi-trash)');
-        this.Editbtn = page.locator('button:has(bi-pencil-fill)');
+        this.Editbtn = this.page.locator('button:has(i.bi-pencil-fill)').first();
         this.Maincheckbox = page.getByRole('checkbox').first();
         this.Deletconfirmbtn = page.getByRole('button', { name: ' Yes, Delete ' });
         this.Deletcancelbtn = page.getByRole('button', { name: ' No, Cancel ' });
@@ -66,6 +66,29 @@ class UserManegment {
     await this.Searchbtn.click();
 }
 
+// async editExistingUser(){
+//     await this.Editbtn.click()
+// }
+
+async editExistingUser() {
+    await this.Editbtn.first().click();
+}
+
+async editEmployName(name){
+    //await this.EditEmployname.clear();  // ✅ fixed
+    await this.EditEmployname.fill(name);
+    await this.page.getByRole('option', { name }).click();
+}
+
+async deleteSystemUser(i){
+    await this.Deletebtn.nth(i).click();
+    await this.Deletconfirmbtn.click();
+}
+
+async searchByUser(username){
+    await this.Username.fill(username);
+    await this.Searchbtn.click();
+}
 }
 
 module.exports = {UserManegment};
